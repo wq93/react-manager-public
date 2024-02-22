@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import viteLogo from '../../../../../../vite.svg'
 import './App.css'
-function App() {
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
+function App () {
   const [count, setCount] = useState(0)
 
   return (
