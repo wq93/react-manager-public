@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   root: '',
-  base: '/api',
+  base: '/',
   publicDir: 'public',
   resolve: {
     alias: {}
