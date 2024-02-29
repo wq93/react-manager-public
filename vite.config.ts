@@ -11,7 +11,7 @@ export default defineConfig({
   },
   server: {
     host: 'localhost',
-    port: 8080,
+    port: 8000,
     proxy: {
       '/api': 'http://api-driver.marsview.cc'
     },
